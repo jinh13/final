@@ -49,8 +49,7 @@ body {
   vertical-align: top;
 }
 .cover-container {
-  margin-right: auto;
-  margin-left: auto;
+  margin-left: 100px; /*Heather Jin's edits to make the text off-center*/
 }
 
 /* Padding for spacing */
@@ -110,8 +109,8 @@ body {
  */
 
 .cover {
-  padding-top: 300px;
-  padding-right:100px;
+  padding-top: 380px;
+  padding-right:70px;
   padding-left:0px; /*Heather's edit: changing padding*/
 }
 .cover .btn-lg {

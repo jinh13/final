@@ -13,7 +13,7 @@ body {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -32,6 +32,10 @@ body {
 .navbar-wrapper .navbar .container {
   width: auto;
 }
+
+.navbar-inverse .navbar-brand {
+    color: white;
+} /*added by Heather Jin*/
 
 
 /* CUSTOMIZE THE CAROUSEL
